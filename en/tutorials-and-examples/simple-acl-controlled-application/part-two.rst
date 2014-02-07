@@ -86,7 +86,7 @@ function::
         $this->Acl->allow($group, 'controllers/Widgets/edit');
         
         //allow basic users to log out
-        $this->Acl->allow($group, 'controllers/users/logout');
+        $this->Acl->allow($group, 'controllers/Users/logout');
         //we add an exit to avoid an ugly "missing views" error message
         echo "all done";
         exit;
